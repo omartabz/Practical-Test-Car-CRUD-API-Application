@@ -1,0 +1,9 @@
+GET http://localhost:3007/api/mostPopularCar
+Content-Type: application/json:
+{
+    "cars": ""
+}
+
+//ALL CARS 
+GET https://bootcamp.projectcodex.co/cars.json
+Content-Type: application/json:

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Counter</title>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div x data="mostPopularCar">
+    <h1 x-text="title"></h1>
+        <div>
+            <h1>Most Popular Car</h1>
+            <button x-on:click="show" x-show=>Show Most mostPopularCar</button>
+        </div>
+</body>
+</html>
+<script src="./alpine.js"></script>
